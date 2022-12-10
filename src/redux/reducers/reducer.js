@@ -43,7 +43,6 @@ export default function reducer(state = initialState, action) {
         ...state,
         cart,
       };
-      break;
     default:
       return state;
   }

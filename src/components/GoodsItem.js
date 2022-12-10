@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import store from "../redux/reducers/store";
 import { connect } from "react-redux";
 import { addGoodToCart } from "../redux/actions/actions";
 import "../styles.css";
